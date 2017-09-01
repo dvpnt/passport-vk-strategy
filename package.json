@@ -1,48 +1,27 @@
 {
-  "name": "passport-vkontakte",
+  "name": "passport-eipsk-strategy",
   "version": "0.3.2",
-  "description": "VK.com authentication strategy for Passport.",
-  "author": {
-    "name": "Jared Hanson",
-    "email": "jaredhanson@gmail.com",
-    "url": "http://www.jaredhanson.net/"
+  "description": "passport vk strategy",
+  "main": "./lib",
+  "scripts": {
+    "test": "vows test/*-test.js"
   },
-  "contributors": [
-    {
-      "name": "Stepan Stolyarov",
-      "email": "stepan.stolyarov@gmail.com"
-    }
+  "keywords": [
+    "passport",
+    "vkontakte",
+    "vk",
+    "вконтакте"
   ],
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/stevebest/passport-vkontakte.git"
+    "url": "https://github.com/dvpnt/passport-vk-strategy.git"
   },
-  "bugs": {
-    "url": "http://github.com/stevebest/passport-vkontakte/issues"
-  },
-  "main": "./lib/index.js",
   "dependencies": {
     "pkginfo": "^0.4.0",
     "passport-oauth2": "^1.3.0"
   },
   "devDependencies": {
     "vows": "^0.7.0"
-  },
-  "scripts": {
-    "test": "vows test/*-test.js"
-  },
-  "engines": {
-    "node": ">= 0.4.0"
-  },
-  "license": "MIT",
-  "keywords": [
-    "passport",
-    "vkontakte",
-    "vk",
-    "вконтакте",
-    "auth",
-    "authn",
-    "authentication",
-    "identity"
-  ]
+  }
 }

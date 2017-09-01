@@ -1,6 +1,4 @@
-# Passport-VKontakte
-
-[![Build Status](https://secure.travis-ci.org/stevebest/passport-vkontakte.png)](http://travis-ci.org/stevebest/passport-vkontakte)
+# passport-vk-strategy
 
 [Passport](http://passportjs.org/) strategy for authenticating with [VK.com](http://www.vk.com/)
 using the OAuth 2.0 API.
