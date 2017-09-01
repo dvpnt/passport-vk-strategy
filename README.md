@@ -1,5 +1,8 @@
 # passport-vk-strategy
 
+[![Build Status](https://api.travis-ci.org/dvpnt/passport-vk-strategy.svg)](https://travis-ci.org/dvpnt/passport-vk-strategy)
+[![NPM Version](https://img.shields.io/npm/v/passport-vk-strategy.svg)](https://www.npmjs.com/package/passport-vk-strategy)
+
 [Passport](http://passportjs.org/) strategy for authenticating with [VK.com](http://www.vk.com/)
 using the OAuth 2.0 API.
 
