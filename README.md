@@ -14,7 +14,7 @@ unobtrusively integrated into any application or framework that supports
 
 ## Installation
 
-    $ npm install passport-vkontakte
+    $ npm install passport-vk-strategy
 
 ## Usage
 
@@ -26,7 +26,7 @@ accepts these credentials and calls `done` providing a user, as well as
 `options` specifying a app ID, app secret, and callback URL.
 
 ```javascript
-const VKontakteStrategy = require('passport-vkontakte').Strategy;
+const VKontakteStrategy = require('passport-vk-strategy').Strategy;
 
 // User session support middlewares. Your exact suite might vary depending on your app's needs.
 app.use(require('cookie-parser')());
