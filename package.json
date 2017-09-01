@@ -1,6 +1,6 @@
 {
   "name": "passport-vk-strategy",
-  "version": "0.3.2",
+  "version": "1.0.0",
   "description": "passport vk strategy",
   "main": "./lib",
   "scripts": {
