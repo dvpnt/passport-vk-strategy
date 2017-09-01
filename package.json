@@ -1,5 +1,5 @@
 {
-  "name": "passport-eipsk-strategy",
+  "name": "passport-vk-strategy",
   "version": "0.3.2",
   "description": "passport vk strategy",
   "main": "./lib",
